@@ -1,0 +1,227 @@
+body {
+        margin: 0;
+        background-color: #bbc5d0;
+        width: 100%;
+        overflow-x: hidden;
+
+    }
+
+    .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #2f2a2a;
+    }
+
+    .nav li {
+        float: left;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .nav li a:hover {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #806363;
+    }
+
+    .home {
+
+        width: 600px;
+        margin-top: 150px;
+        padding-left: 80px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        text-align: justify;
+        color: grey;
+        float: left;
+        font-weight: bold;
+
+    }
+
+    body > div.home > h2 {
+        text-align: center;
+        color: red;
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+    .me img {
+        width: 420px;
+        float: right;
+        border-radius: 30%;
+        padding-right: 100px;
+        margin-top:60px;
+    }
+
+    #blog > div > div > h2 {
+        text-align: center;
+        font-size: 30px;
+        color: red;
+        padding-top: 15px;
+        text-decoration: underline;
+    }
+
+    #blog > div > div > h4 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .post-part {
+        width: 30%;
+        border: 1px solid lightgray;
+        /*padding: 20px 20px 0 20px;*/
+        height: 900px;
+    }
+
+    .img-responsive {
+        width: 90%;
+        padding: 20px;
+    }
+
+    #blog > div > div > div {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    #blog > div > div > div a {
+        text-decoration: none;
+        color: black;
+        padding-left: 20px;
+    }
+
+    #blog > div > div > div > div > div > p {
+        width: 350px;
+        padding-left: 20px;
+    }
+
+    #blog > div > div > div > div > div > small {
+        padding-left: 20px;
+    }
+
+    #blog > div > div > div > div > h3 > a {
+        font-size: 25px;
+    }
+
+    #blog > div > div > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    #about {
+        text-align: center;
+        padding-top: 200px;
+        padding-bottom: 230px;
+        background-image: url("home-bg.jpg");
+        background-repeat: no-repeat;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        opacity: 70%;
+
+    }
+
+    #about > div > div > a {
+        color: red;
+        font-size: 60px;
+        font-weight: bold;
+        text-decoration: none;
+        font-variant-caps: all-petite-caps;
+
+    }
+
+    .nsl {
+        padding-top: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #findme {
+        border: 1px solid red;
+        border-radius: 5%;
+        width: 40%;
+        margin-left: 100px;
+        margin-top: 300px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+
+    #findme p {
+        padding-left: 50px;
+    }
+
+    .me2 img {
+        padding-top: 60px;
+        width: 420px;
+        float: right;
+        padding-right: 200px;
+        margin-top: -500px;
+        border-radius: 50%;
+    }
+
+    #findme > p {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    #findme a {
+        text-decoration: none;
+        color: red;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        padding-left: 80px;
+    }
+
+    .insta, .facebook {
+        padding: 30px 0 20px 0;
+    }
+
+    .insta {
+        background-image: url("instagram.png");
+        background-repeat: no-repeat;
+        background-size: 50px;
+        background-position-y: 15px;
+    }
+
+    .facebook {
+        background-image: url("facebook.png");
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position-x: 5px;
+        background-position-y: 20px;
+    }
+
+    footer {
+        /*bottom:0;
+        left:0;*/
+        position: relative;
+        margin-top: 200px;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
